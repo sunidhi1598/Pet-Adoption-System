@@ -111,6 +111,17 @@ GET /api/applications/my
 GET /api/applications/all
 PUT /api/applications/:id
 
+Run Your Project Locally
+Backend:
+cd backend
+npm install
+npm start
+
+Frontend:
+cd frontend
+npm install
+npm start
+
 Author
 
 Sunidhi Kumari
