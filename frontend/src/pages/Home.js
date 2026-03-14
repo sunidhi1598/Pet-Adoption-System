@@ -14,7 +14,7 @@ const [page] = useState(1);
 
   setLoading(true);
 
-  axios.get(`https://pet-adoption-system-8duc.onrender.com=${search}&species=${species}&page=${page}`)
+ axios.get(`https://pet-adoption-system-8duc.onrender.com/api/pets?search=${search}&species=${species}&page=${page}`)
    .then(res=>{
      setPets(res.data);
      setLoading(false);
