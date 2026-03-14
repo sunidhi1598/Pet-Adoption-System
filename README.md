@@ -86,7 +86,6 @@ pet-adoption-system/
 │   │   └── App.js
 │
 └── README.md
-Author
 
+Author
 Sunidhi Kumari
-GitHub: https://github.com/sunidhi1598
