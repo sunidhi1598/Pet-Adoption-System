@@ -7,7 +7,7 @@ function AdminDashboard(){
 
  useEffect(()=>{
 
-  axios.get("http://localhost:5000/api/applications/all")
+  axios.get("https://pet-adoption-system-8duc.onrender.com/api/applications/all")
   .then(res=>{
    setApplications(res.data);
   });

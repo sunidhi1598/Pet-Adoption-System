@@ -10,7 +10,7 @@ const [pet,setPet] = useState(null);
 
 useEffect(()=>{
 
-axios.get("http://localhost:5000/api/pets/"+id)
+axios.get("https://pet-adoption-system-8duc.onrender.com/api/pets/"+id)
 .then(res=>{
 setPet(res.data);
 });

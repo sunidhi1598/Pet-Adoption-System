@@ -10,7 +10,7 @@ function Register(){
   const handleSubmit = async(e)=>{
     e.preventDefault();
 
-    await axios.post("http://localhost:5000/api/auth/register",{
+    await axios.post("https://pet-adoption-system-8duc.onrender.com/api/auth/register",{
       name,
       email,
       password
